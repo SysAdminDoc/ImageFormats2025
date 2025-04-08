@@ -6,14 +6,14 @@
 
 ### JPEG XL: The Modern Digital Darkroom
 
-JPEG XL (JXL) is more than a JPEG replacement—it's a full-scale imaging solution. Engineered to cover everything from tiny web graphics to ultra-high-fidelity photography, JXL combines cutting-edge compression with wide feature support.
+JPEG XL (JXL) is more than a JPEG replacement, it's a full-scale imaging solution. Engineered to cover everything from tiny web graphics to ultra-high-fidelity photography, JXL combines cutting-edge compression with wide feature support.
 
-It uses a modular encoding system based on Google's PIK and Cloudinary’s FUIF projects. The lossy mode is perceptually tuned to match human vision (psychovisual optimization), and the lossless mode can compress legacy JPEGs by ~20% without re-encoding. That’s not just efficient—it’s archival gold.
+It uses a modular encoding system based on Google's PIK and Cloudinary's FUIF projects. The lossy mode is perceptually tuned to match human vision (psychovisual optimization), and the lossless mode can compress legacy JPEGs by ~20% without re-encoding. That's not just efficient, it's archival gold.
 
 #### Key Capabilities:
-- **Progressive Decoding**: Images load like the old interlaced JPEGs—fast preview first, detail follows.
+- **Progressive Decoding**: Images load like the old interlaced JPEGs, fast preview first, detail follows.
 - **Animation**: Supports multi-frame images, challenging WebP and GIF.
-- **Container Flexibility**: Can store multiple images, metadata, thumbnails—like a mini image database.
+- **Container Flexibility**: Can store multiple images, metadata, thumbnails, like a mini image database.
 - **High Bit Depth**: Up to 32 bits per channel, perfect for HDR workflows and scientific imagery.
 - **ICC Profiles & Metadata**: Strong support for color fidelity and file tagging.
 
@@ -24,14 +24,14 @@ It uses a modular encoding system based on Google's PIK and Cloudinary’s FUIF 
 
 ---
 
-### WebP: The Web’s Workhorse
+### WebP: The Web's Workhorse
 
 WebP is the browser-native image format designed for speed, efficiency, and versatility. Developed by Google and derived from the VP8 video codec, WebP filled a critical gap between bloated PNGs and lossy JPEGs with a modern hybrid that just works.
 
 #### Under the Hood:
 - **Predictive Coding**: Uses block prediction like video compression to reduce redundancy.
 - **Color Space**: YUV 4:2:0 for lossy; optional 4:4:4 for lossless or alpha-rich images.
-- **Alpha Compression**: Advanced methods to shrink transparency layers, unlike PNG’s brute-force approach.
+- **Alpha Compression**: Advanced methods to shrink transparency layers, unlike PNG's brute-force approach.
 - **Animation**: Multi-frame image support with alpha transparency and frame blending.
 
 #### Evolution & Adoption:
@@ -93,9 +93,9 @@ AVIF (AV1 Image File Format) is a next-gen image format based on the AV1 video c
 
 **Cons**
 - ❌ **Apple Holdout** – Safari support is missing; iOS adoption remains a challenge.
-- ❌ **Limited Hardware Acceleration** – Encoding isn’t yet hardware-accelerated like AVIF.
+- ❌ **Limited Hardware Acceleration** – Encoding isn't yet hardware-accelerated like AVIF.
 - ❌ **Fragmented Tooling** – While CLI tools excel, UI applications are still catching up.
-- ❌ **No Native Camera Support Yet** – Unlike HEIF on iPhones, JXL isn’t part of the default camera roll.
+- ❌ **No Native Camera Support Yet** – Unlike HEIF on iPhones, JXL isn't part of the default camera roll.
 
 ---
 
@@ -109,7 +109,7 @@ AVIF (AV1 Image File Format) is a next-gen image format based on the AV1 video c
 - ✅ **Built-In Alpha & Animation** – Simplifies asset pipelines for modern web apps.
 
 **Cons**
-- ❌ **No HDR/Wide Color** – Limited to 8-bit and sRGB, which isn’t future-proof.
+- ❌ **No HDR/Wide Color** – Limited to 8-bit and sRGB, which isn't future-proof.
 - ❌ **Visible Compression Artifacts** – Aggressive compression can lead to quality degradation.
 - ❌ **Legacy Foundations** – Based on the older VP8 codec, which lacks the efficiency of modern codecs.
 - ❌ **File Size Ceiling** – Less efficient than AVIF and JPEG XL at extreme compression levels or high resolutions.
@@ -118,7 +118,7 @@ AVIF (AV1 Image File Format) is a next-gen image format based on the AV1 video c
 
 ## Real-World Performance Benchmarks
 
-Let’s get practical. Here's how these formats typically stack up for the same image quality:
+Let's get practical. Here's how these formats typically stack up for the same image quality:
 
 | Format    | Compression Ratio (vs JPEG) | Encoding Speed          | Decoding Speed | Best For                         |
 |-----------|-----------------------------|-------------------------|----------------|----------------------------------|
@@ -176,7 +176,7 @@ Install AVIF support via:
 
 ## The Future of Image Formats
 
-### JPEG XL’s Trajectory
+### JPEG XL's Trajectory
 
 As of April 2025:
 
@@ -184,20 +184,20 @@ As of April 2025:
 - **Tools**: Supported by GIMP, ImageMagick, Cloudinary, and even early versions of Photoshop.
 - **Use Cases**: Ideal for archiving, high-end web content, HDR media, and modern photo libraries.
 
-JPEG XL’s success depends on continued adoption. If momentum builds, it could become the default for web and professional use by 2030.
+JPEG XL's success depends on continued adoption. If momentum builds, it could become the default for web and professional use by 2030.
 
 ---
 
-### WebP’s Staying Power
+### WebP's Staying Power
 
-WebP is still everywhere, even if it’s showing its age:
+WebP is still everywhere, even if it's showing its age:
 
 - **Mobile & Web**: Used by Android, Chrome, and various web services.
 - **Evolution**: While incredibly versatile, its lack of HDR and wide color capability limits its future-proofness compared to newer formats.
 
 ---
 
-### AVIF’s Momentum
+### AVIF's Momentum
 
 - **Adoption**: Already adopted by Netflix, Apple Photos, Cloudflare, and other media-heavy platforms.
 - **Challenges**: The encoding process remains slow, and metadata handling is still a work in progress.
@@ -209,10 +209,8 @@ WebP is still everywhere, even if it’s showing its age:
 
 If image formats were superheroes:
 
-- **WebP** is **Batman** — practical, prepared, and everywhere.
-- **AVIF** is **Spider-Man** — young, powerful, but sometimes a bit unpredictable.
-- **JPEG XL** is **Iron Man** — high-tech, versatile, and rich in features.
+- **WebP** is **Batman** ,  practical, prepared, and everywhere.
+- **AVIF** is **Spider-Man** ,  young, powerful, but sometimes a bit unpredictable.
+- **JPEG XL** is **Iron Man** ,  high-tech, versatile, and rich in features.
 
-For developers and content creators, now is the time to experiment and adopt. Don’t wait for a single winner; build flexible pipelines with fallbacks and use the best format for each use case.
-
-**Remember**: the web doesn’t need one *perfect* format — it needs smart decisions and modern tools.
+For developers and content creators, now is the time to experiment and adopt. Don't wait for a single winner; build flexible pipelines with fallbacks and use the best format for each use case.
