@@ -73,6 +73,13 @@ AVIF (AV1 Image File Format) is a next-gen image format based on the AV1 video c
 | JPEG XL   | ✅    | ✅       | ✅           | ✅        | ✅               | Partial (Safari pending)    | Pro photos, web, archival   |
 | AVIF      | ✅    | ✅       | ✅           | ✅        | ✅               | ✅                          | Photography, web delivery   |
 
+- **Lossy**: Reduces file size by permanently removing image data. Good for photos, but may reduce quality if over-compressed  
+- **Lossless**: Shrinks file size without removing any image data. Keeps perfect quality. Great for graphics, UI, and archiving  
+- **Transparency**: Supports see-through pixels so the image can blend into any background  
+- **Animation**: Allows a single image file to show motion, like a GIF  
+- **HDR / Wide Gamut**: High Dynamic Range lets images show brighter highlights and deeper shadows. Wide gamut supports vivid, more realistic colors  
+- **Browser Support**: Whether a format can be viewed natively in modern browsers
+
 ---
 
 ## Pros and Cons (Expanded)
