@@ -105,18 +105,28 @@ WebP is great for the web, but it can be a hassle when you need standard formats
 
 These are great for converting or downloading WebP images in JPEG or PNG format while browsing.
 
+## Tools for Working with WebP: Extensions and Batch Conversion
+
+WebP is great for the web, but it can be a hassle when you need standard formats like JPEG. Whether you’re downloading one image or converting a whole folder, here’s how to make life easier.
+
+### 🧩 Browser Extensions (Chrome and Firefox)
+
+These are great for converting or downloading WebP images in JPEG or PNG format while browsing.
+
 - **Save Image as Type**  
   Adds a right-click option to download images as JPEG, PNG, or WebP  
-  [Chrome](https://chrome.google.com/webstore/detail/save-image-as-type/fbddmighbblnbimcdedbdbggdmgjbmjf)  
-  [Firefox](https://addons.mozilla.org/en-US/firefox/addon/save-image-as-type/)
+  [Chrome](https://chromewebstore.google.com/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd)  
+  [Firefox](https://addons.mozilla.org/en-US/firefox/addon/siat/)
 
 - **WebP / AVIF Image Converter**  
   Adds a toolbar button to convert images on a page to JPEG or PNG  
-  [Chrome](https://chrome.google.com/webstore/detail/webp-avif-image-converte/odjgnjigopkmiljkbhpbhdlnmnnbopln)
+  [Chrome (mConverter)](https://chromewebstore.google.com/detail/mconverter-file-converter/hpjdhhlocahjkhhmcdfbggiegokpljgf)  
+  [Chrome (WebP/AVIF Converter)](https://chromewebstore.google.com/detail/webp-avif-image-converter/pbcfbdlbkdfobidmdoondbgdfpjolhci)
 
 - **Save WebP as PNG or JPEG**  
   Firefox-only, lightweight and open-source  
-  [Firefox](https://addons.mozilla.org/en-US/firefox/addon/save-webp-as-png-jpeg/)
+  [Firefox (Converter)](https://addons.mozilla.org/en-US/firefox/addon/webp-image-converter/)  
+  [Firefox (Save WebP as PNG or JPEG)](https://addons.mozilla.org/en-US/firefox/addon/save-webp-as-png-or-jpeg/)
 
 ---
 
