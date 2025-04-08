@@ -1,7 +1,5 @@
 # Exploring JPEG XL, AVIF, WebP, and the Future of Image Formats
 
-Images are the lifeblood of the modern web. Whether it’s a stunning photograph, a crisp infographic, or a tiny icon, the way we compress and deliver them matters. Enter **JPEG XL**, **WebP**, and **AVIF**—three formats vying to redefine how we balance quality, file size, and performance. In this post, we’ll dive into what these formats are, their pros and cons, why they’re used, practical tools for working with them, and what the future might hold for image compression.
-
 ---
 
 ## What Are JPEG XL, WebP, and AVIF?
